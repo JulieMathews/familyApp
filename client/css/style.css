@@ -75,14 +75,14 @@ button:focus {
   box-shadow: none; }
 
 .p_120 {
-  padding-top: 120px;
-  padding-bottom: 120px; }
+  padding-top: 20px;
+  padding-bottom: 20px; }
 
 .pad_top {
-  padding-top: 120px; }
+  padding-top: 20px; }
 
 .pad_btm {
-  padding-bottom: 120px; }
+  padding-bottom: 20px; }
 
 .mt-25 {
   margin-top: 25px; }
@@ -2899,7 +2899,7 @@ h6 {
 /* Clients Logo Area css
 ============================================================================================ */
 .clients_logo_area {
-  background: #f9f9ff; }
+  background: #666666; }
   .clients_logo_area .clients_slider .item {
     text-align: center; }
     .clients_logo_area .clients_slider .item img {
