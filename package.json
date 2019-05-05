@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/JulieMathews/p3#readme",
   "dependencies": {
+    "express-handlebars": "^3.0.2",
     "vue": "^2.6.10"
   }
 }
