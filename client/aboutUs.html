@@ -21,66 +21,72 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
   </head>
-
+    
   <body>
-    <!--================Header Menu Area =================-->
-    <header class="header_area">
-      <div class="top_menu">
-        <div class="container">
-          <div class="top_inner">
-           	<div class="float-right">
-           		<ul class="list header_socila">
-           			<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-           			<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-           			<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-           			<li><a href="#"><i class="fa fa-behance"></i></a></li>
-           		</ul>
-           	</div>
+      <!--================Header Menu Area =================-->
+      <header class="header_area">
+        <div class="top_menu">
+          <div class="container">
+            <div class="top_inner">
+                <div class="float-right">
+                  <ul class="list header_socila">
+                  <div class="main_menu" id="mainNav">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                      <div class="container">                    
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <a class="navbar-brand logo_h"><img src="img/logo.png" alt=""><img src="img/logo-2.png" alt=""></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        </button>
+              
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+                          <ul class="nav navbar-nav menu_nav ml-auto">
+                            
+                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li> 
+                            
+                            <li class="nav-item"><a class="nav-link" href="communityForum.html">Community Forum</a></li>
+  
+                            <!-- DROP DOWN WHEN THERE ARE MORE
+                            <li class="nav-item submenu dropdown">
+                              <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Forums</a>
+                              <ul class="dropdown-menu">
+                                <li class="nav-item"><a class="nav-link" href="communityForum.html">Community Forum</a></li>
+                                -->
+                                <!-- IN SCHOOL AND SPECIALISTS SECTION
+                                <li class="nav-item"><a class="nav-link" href="inschoolForum.html">In-School Forum</a></li>
+                                <li class="nav-item"><a class="nav-link" href="specialistForum.html">Specialist Forum</a></li>
+                                
+                              </ul>
+                            </li> 
+                            -->
+                            <!--
+                            <li class="nav-item submenu dropdown">
+                              <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Specialists</a>
+                              <ul class="dropdown-menu">
+                                <li class="nav-item"><a class="nav-link" href="specialistArticles.html">Articles By</a></li>
+                                <li class="nav-item"><a class="nav-link" href="specialistContact.html">Message</a></li>
+                              </ul>
+                            </li> 
+                            -->
+                            <li class="nav-item"><a class="nav-link" href="aboutUs.html">About</a></li> 
+  
+                          </ul>
+                        </div> 
+                      </div>
+                    </nav>
+                  </div>
+                  </ul>
+                </div>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="main_menu" id="mainNav">
-        <nav class="navbar navbar-expand-lg navbar-light">
-					<div class="container">
-					  <!-- Brand and toggle get grouped for better mobile display -->
-						<a class="navbar-brand logo_h" href="index.html"><img src="img/logo.png" alt=""><img src="img/logo-2.png" alt=""></a>
-						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-            
-						<!-- Collect the nav links, forms, and other content for toggling -->
-						<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
-							<ul class="nav navbar-nav menu_nav ml-auto">
-                
-								<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li> 
-                <li class="nav-item"><a class="nav-link" href="aboutUs.html">About</a></li> 
-                
-								<li class="nav-item submenu dropdown">
-									<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Forums</a>
-									<ul class="dropdown-menu">
-										<li class="nav-item"><a class="nav-link" href="communityForum.html">Community Forum</a></li>
-										<li class="nav-item"><a class="nav-link" href="inschoolForum.html">In-School Forum</a></li>
-										<li class="nav-item"><a class="nav-link" href="specialistForum.html">Specialist Forum</a></li>
-									</ul>
-                </li> 
-                
-								<li class="nav-item submenu dropdown">
-									<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Specialists</a>
-									<ul class="dropdown-menu">
-										<li class="nav-item"><a class="nav-link" href="specialistArticles.html">Articles By</a></li>
-										<li class="nav-item"><a class="nav-link" href="specialistContact.html">Message</a></li>
-									</ul>
-                </li> 
-              </ul>
-            </div> 
-					</div>
-        </nav>
-      </div>
-    </header>
-    <!--================Header Menu Area =================-->
         
+      </header>
+      <!--================Header Menu Area =================-->
+          
     <!--================Home Banner Area =================-->
     <section class="banner_area">
       <div class="banner_inner d-flex align-items-center">
@@ -135,10 +141,9 @@
         	<div class="col-lg-6">
         		<div class="about_left_text">
         			<h6>Brand new app to blow your mind</h6>
-        			<h3>We’ve made a life <br />that will change you</h3>
-        			<h5>We are here to listen from you deliver exellence</h5>
+        			<h3>The Support You Need</h3>
+        			<h5>We are here to listen to you and deliver exellence</h5>
         			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp or incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
-        			<a class="main_btn" href="#">Get Started Now</a>
         		</div>
         	</div>
         	<div class="col-lg-6">
@@ -153,21 +158,21 @@
     <section class="projects_area">
       <div class="row m0">
         <div class="projects_item wd_18">
-					<img src="img/aboutus/sonja-1.png" alt="">
+					<img src="img/aboutUs/sonja-1.png" alt="">
 					<div class="hover" style="opacity:.7;">
 						<h4>Sonja</h4>
 						<p>Risus viverra adipiscing at in tellus integer feugiat scelerisque varius.</p>
 					</div>
 				</div>
 				<div class="projects_item wd_18">
-					<img src="img/aboutus/women.png" alt="">
+					<img src="img/aboutUs/ben-1.png" alt="">
 					<div class="hover" style="opacity:.7;">
-						<h4></h4>
-						<p>Together they met in a Coding Bootcamp program at UW, and have a common passion for their children.</p>
+						<h4>Ben</h4>
+						<p>Risus viverra adipiscing at in tellus integer feugiat scelerisque varius.</p>
 					</div>
         </div>
 				<div class="projects_item wd_18">
-					<img src="img/aboutus/julie-1.png" alt="">
+					<img src="img/aboutUs/julie-1.png" alt="">
 					<div class="hover" style="opacity:.7;">
 						<h4>Julie</h4>
 						<p>Mother of four, all of which had speech delay and one on the Autism Spectrum.</p>
@@ -179,89 +184,64 @@
         
     <!--================Footer Area =================-->
     <footer class="footer_area p_120">
-      <div class="container">
-        <div class="row footer_inner">
-        	<div class="col-lg-5 col-sm-6">
-        		<aside class="f_widget ab_widget">
-        			<div class="f_title">
-        				<h3>About Us</h3>
-        			</div>
-        			<p>Dignissim sodales ut eu sem integer vitae justo eget magna. </p>
-        			
-              <p>
-                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-              </p>
-
-              <p>
-                <!-- Link back to Flaticon can't be removed. Icons are licensed under CC BY 3.0. -->
-                Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</img> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
-                <!-- Link back to Flaticon can't be removed. Icons are licensed under CC BY 3.0. -->
-              </p>
-
-        		</aside>
-        	</div>
-        <div class="col-lg-5 col-sm-6">
-      </div>
-      <div class="col-lg-2">
-        <aside class="f_widget social_widget">
-        	<div class="f_title">
-        		<h3>Follow Us</h3>
-        	</div>
-        	<p>Let us be social</p>
-        		<ul class="list">
-        			<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-        			<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-        			<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-        			<li><a href="#"><i class="fa fa-behance"></i></a></li>
-        		</ul>
-        	</aside>
-    		</div>
-    	</div>
-                  
-      <!--================Sponsors Area =================-->
-      <section class="clients_logo_area p_120">
         <div class="container">
-          <div class="clients_slider owl-carousel">
-        	  <div class="item">
-        		  <img src="img/clients-logo/c-logo-1.png" alt="">
-        	  </div>
-        	  <div class="item">
-        		  <img src="img/clients-logo/c-logo-2.png" alt="">
-        	  </div>
-        	  <div class="item">
-        		  <img src="img/clients-logo/c-logo-3.png" alt="">
-        	  </div>
-        	  <div class="item">
-        	  	<img src="img/clients-logo/c-logo-4.png" alt="">
-        	  </div>
-        	  <div class="item">
-        		  <img src="img/clients-logo/c-logo-5.png" alt="">
-        	  </div>
+          <div class="row footer_inner">
+            <div class="col-lg-5 col-sm-6">
+              <aside class="f_widget ab_widget">
+                <div class="f_title">
+                  <h3>About Us</h3>
+                </div>
+                <p>At erat pellentesque adipiscing commodo elit at imperdiet dui accumsan.</p>
+                <p>
+                  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                </p>
+                <p>
+                  <!-- Link back to Flaticon can't be removed. Icons are licensed under CC BY 3.0. -->
+                  Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</img> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+                  <!-- Link back to Flaticon can't be removed. Icons are licensed under CC BY 3.0. -->
+                </p>  
+              </aside>
+            </div>
+            <div class="col-lg-5 col-sm-6">
+            </div>
+            <div class="col-lg-2">
+              <!--
+              <aside class="f_widget social_widget">
+                <div class="f_title">
+                  <h3>Follow Us</h3>
+                </div>
+                <p>Let us be social</p>
+                <ul class="list">
+                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                  <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                </ul>
+              </aside>
+              -->
+            </div>
           </div>
         </div>
-      </section>
-      <!--================End Sponsors Area =================-->
-
-    </footer>
-    <!--================End Footer Area =================-->
-        
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/popper.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/stellar.js"></script>
-    <script src="vendors/lightbox/simpleLightbox.min.js"></script>
-    <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
-    <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
-    <script src="vendors/isotope/isotope-min.js"></script>
-    <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
-    <script src="js/jquery.ajaxchimp.min.js"></script>
-    <script src="js/mail-script.js"></script>
-    <script src="vendors/counter-up/jquery.waypoints.min.js"></script>
-    <script src="vendors/counter-up/jquery.counterup.min.js"></script>
-    <script src="js/theme.js"></script>
-  </body>
-</html>
+      </footer>
+      <!--================End Footer Area =================-->
+          
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="js/jquery-3.2.1.min.js"></script>
+      <script src="js/popper.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/stellar.js"></script>
+      <script src="vendors/lightbox/simpleLightbox.min.js"></script>
+      <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+      <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
+      <script src="vendors/isotope/isotope-min.js"></script>
+      <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+      <script src="js/jquery.ajaxchimp.min.js"></script>
+      <script src="js/mail-script.js"></script>
+      <script src="vendors/counter-up/jquery.waypoints.min.js"></script>
+      <script src="vendors/counter-up/jquery.counterup.min.js"></script>
+      <script src="js/theme.js"></script>
+    </body>
+  </html>
