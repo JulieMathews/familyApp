@@ -75,7 +75,6 @@ button:focus {
   box-shadow: none; }
 
 .p_120 {
-  padding-top: 20px;
   padding-bottom: 20px; }
 
 .pad_top {
@@ -106,12 +105,13 @@ button:focus {
 ============================================================================================ */
 .main_title {
   text-align: center;
-  margin-bottom: 75px; }
+  margin-bottom: 40px; }
   .main_title h2 {
     font-family: "Heebo", sans-serif;
     font-size: 36px;
     color: #222222;
     font-weight: bold;
+    margin-top:20px;
     margin-bottom: 15px;
     text-transform: uppercase; }
   .main_title p {
@@ -295,9 +295,8 @@ button:focus {
 ============================================================================================ */
 .home_banner_area {
   z-index: 1;
-  background: url(../img/banner/home-banner.jpg) no-repeat scroll center center;
-  background-size: cover;
-   }
+  background-color: #A2DCE2;
+}
   .home_banner_area .banner_inner {
     width: 100%; }
     .home_banner_area .banner_inner .col-lg-8 {
@@ -305,6 +304,7 @@ button:focus {
       align-self: center; }
     .home_banner_area .banner_inner .banner_content {
       text-align: left;
+      padding-top: 40px;
       color: #fff; }
       .home_banner_area .banner_inner .banner_content h2 {
         margin-top: 0px;
@@ -327,8 +327,8 @@ button:focus {
     background: rgba(255, 255, 255, .7);
     display: flex;
     flex-wrap: wrap;
-    margin-top: 210px;
-    margin-bottom: 210px;
+    margin-top: 150px;
+    margin-bottom: 90px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 10px; }
     .home_banner_area .home_right_box .home_item {
@@ -337,7 +337,6 @@ button:focus {
       text-align: center;
       line-height: 20px;
       padding: 20px;
-      border-bottom: 1px solid rgba(97, 97, 97, 0.644);
       transition: all 300ms linear 0s; }
       .home_banner_area .home_right_box .home_item i {
         font-size: 40px; }
@@ -346,7 +345,7 @@ button:focus {
           color: #fff;
           margin-left: 0px; }
       .home_banner_area .home_right_box .home_item:nth-child(odd) {
-        border-right: 1px solid rgba(255, 255, 255, 0.1); }
+        border-right: 1px solid #fff; }
       .home_banner_area .home_right_box .home_item:nth-child(5) {
         border-bottom: 0px; }
       .home_banner_area .home_right_box .home_item:last-child {
@@ -413,7 +412,7 @@ button:focus {
     min-height: 40px;
     z-index: 1; }
     .banner_area .banner_inner .overlay {
-      background-color: #5ec0ca;
+      background-color: #A2DCE2;
       position: absolute;
       left: 0;
       right: 0;
@@ -427,6 +426,7 @@ button:focus {
         color: #fff;
         font-size: 48px;
         font-family: "Heebo", sans-serif;
+        margin-top:80px;
         margin-bottom: 0px;
         text-transform: uppercase;
         font-weight: bold; }
@@ -710,7 +710,7 @@ button:focus {
 
 .blog_right_sidebar {
   border: 1px solid #eeeeee;
-  background: #fafaff;
+  background: #fff;
   padding: 30px; }
   .blog_right_sidebar .widget_title {
     font-size: 18px;
@@ -2703,8 +2703,6 @@ h6 {
 /*----------------------------------------------------*/
 /* Popular Area css
 ============================================================================================ */
-.popular_area {
-  background: #f9f9ff; }
 
 .popular_inner {
   margin-bottom: -30px; }
@@ -2927,6 +2925,7 @@ h6 {
     font-size: 20px;
     font-weight: bold;
     font-family: "Heebo", sans-serif;
+    margin-top: 40px;
     margin-bottom: 0px;
     text-transform: uppercase; }
 
