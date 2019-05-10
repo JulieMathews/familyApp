@@ -405,24 +405,22 @@ button:focus {
 .banner_area {
   position: relative;
   z-index: 1;
-  min-height: 430px; }
+  min-height: 43px; }
   .banner_area .banner_inner {
     position: relative;
     overflow: hidden;
     width: 100%;
-    min-height: 430px;
-    background: #000;
+    min-height: 40px;
     z-index: 1; }
     .banner_area .banner_inner .overlay {
-      background: url(../img/banner/banner.jpg) no-repeat scroll center center;
+      background-color: #5ec0ca;
       position: absolute;
       left: 0;
       right: 0;
       top: 0;
       height: 125%;
       bottom: 0;
-      z-index: -1;
-      opacity: .40; }
+      z-index: -1;}
     .banner_area .banner_inner .banner_content {
       margin-top: 70px; }
       .banner_area .banner_inner .banner_content h2 {
