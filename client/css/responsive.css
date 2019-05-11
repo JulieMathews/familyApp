@@ -19,9 +19,6 @@
 	============================================================================================ */
 	/* Home Banner Area css
 	============================================================================================ */
-	.home_banner_area .banner_inner {
-		padding: 100px 0px;
-	}
 	.home_banner_area .banner_inner .banner_content h2 br {
 		display: none;
 		font-size: 36px;
