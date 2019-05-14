@@ -2,6 +2,13 @@ var db = require("../models");
 var passport = require("passport");
 
 module.exports = function (app){
+
+    app.get("/", function(req, res){
+        res.render('layouts/index');
+
+    })
+
+
     app.get("/register", function (req, res){
         var context = {errors: req.flash('error') };
         console.log("Context: ", context);
@@ -62,7 +69,7 @@ module.exports = function (app){
             
             res.cookie('username', user.username);
             res.cookie('user_id', user.uuid );
-            return res.redirect("/createtasks");
+            return res.redirect("/");
           });      
         })(req, res, next);
       });

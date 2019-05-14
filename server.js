@@ -20,7 +20,8 @@ require("./config/passport")(passport);
 //Middleware
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
-app.use(express.static(""));
+app.use(express.static("client"));
+app.set("views", "client/views");
 
 
 // session support is required for passportjs
@@ -47,6 +48,7 @@ app.engine(
         defaultLayout: "main" 
     })
 );
+
 app.set("view engine", "handlebars");
 
 
