@@ -1,0 +1,51 @@
+    <div id="container-login">
+
+        <div id="title">
+            <img src="/assets/images/logo.jpg" height="300" />
+            <br>
+            <img src="/assets/images/planhub.png" height="97" />
+        </div>
+        <p>
+            Does your child have trouble staying on task? 
+            <br><br>
+            Our app is intended to provide some incentive-based structure
+            in a fun way. 
+            <br><br>
+            We encourage you to sign up below and give it a try!
+        </p>
+        <!--add error message when user tries to login with an incorrect email address or password-->
+        {{#if errors}}
+        <div>
+            {{#each errors}}
+                <div>{{this}}</div>
+            {{/each}}
+        </div>
+        {{/if}}
+
+        <form method="POST" action="/login">
+            <div class="input">
+                <div class="input-addon">
+                    <i class="material-icons">email</i>
+                </div>
+                <input id="username" name="email" placeholder="Email" type="email" required class="validate" autocomplete="off">
+            </div>
+
+            <div class="clearfix"></div>
+
+            <div class="input">
+                <div class="input-addon">
+                    <i class="material-icons">vpn_key</i>
+                </div>
+                <input id="password" name="password" placeholder="Password" type="password" required class="validate"
+                    autocomplete="off">
+            </div>
+
+            <input type="submit" value="Log In" />
+        </form>
+
+        <div class="register">
+            <span style="color: #657575">Don't have an account yet?</span>
+            <a href="register"><button id="register-link">Register here</button></a>
+        </div>
+       
+    </div>
