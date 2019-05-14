@@ -23,54 +23,44 @@
     -->   
     <!--================Post Categorie Area =================-->
         
-    <!--================Post Area =================-->
-    <section class="blog_area single-post-area p_120">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8">
-            <div class="blog_left_sidebar">
-              <article class="row blog_item">
-                <div class="col-md-3">
-                    <div class="blog_info text-right">
-                      <ul class="blog_meta list">
-                        <div class="thumb">
-                          <img src="img/blog/c5.jpg" alt="">
-                        </div>
-                        <li><a href="#">Bob<i class="lnr lnr-user"></i></a></li>
-                        <li><a href="#">3 May, 2019<i class="lnr lnr-calendar-full"></i></a></li>
-                        <li><a href="#">05 Comments<i class="lnr lnr-bubble"></i></a></li>
-                      </ul>
-                    </div>
-                  </div>
-                <div class="col-md-9">
-                  <div class="blog_post">
-                    <div class="blog_details">
-                      <a href="singlePost.html"><h2>Trouble with siblings.</h2></a>
-                      <p>Donec ultrices tincidunt arcu non sodales neque sodales ut etiam. Egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate. Pellentesque id nibh tortor id aliquet lectus proin nibh.</p>
-                    </div>
-                  </div>
+<!--================Post Area =================-->
+<section class="blog_area">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8">
+        <div class="blog_left_sidebar">
+          {{#each posts}}
+          <article class="row blog_item">
+            <div class="col-md-3">
+              <div class="blog_info text-right">
+                <div class="post_tag">
+                  <a href="#">Family</a>
                 </div>
-              </article>
-              <article class="row blog_item">
-                <div class="col-md-3">
-                  <div class="blog_info text-right">
-                    <ul class="blog_meta list">
-                      <div class="thumb">
-                        <img src="img/blog/c1.jpg" alt="">
-                      </div>
-                      <li><a href="#">Emily<i class="lnr lnr-user"></i></a></li>
-                      <li><a href="#">3 May, 2019<i class="lnr lnr-calendar-full"></i></a></li>
-                      <li><a href="#">05 Comments<i class="lnr lnr-bubble"></i></a></li>
-                    </ul>
-                  </div>
+                <ul class="blog_meta list">
+                  <li><a href="#">Jane Doe<i class="lnr lnr-user"></i></a></li>
+                  <li><a href="#">3 May, 2019<i class="lnr lnr-calendar-full"></i></a></li>
+                  <li><a href="#">184 Views<i class="lnr lnr-eye"></i></a></li>
+                  <li><a href="#">06 Comments<i class="lnr lnr-bubble"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-9">
+              <div class="blog_post">
+                <img src="img/family/fighting001.jpeg" alt="">
+                <div class="blog_details">
+                  <a href="single-blog.html"><h2>Trouble with siblings.</h2></a>
+                  <p>{{message}}</p>
+                  <a href="single-blog.html" class="blog_btn">View More</a>
                 </div>
-                <div class="col-md-9">
-                  <div class="blog_post">
-                    <div class="blog_details">
-                      <a href="singlePost.html"><h2>Picky eater</h2></a>
-                      <p>Imperdiet proin fermentum leo vel orci porta non pulvinar. Amet dictum sit amet justo donec enim diam vulputate ut.</p>
-                    </div>
-                  </div>
+              </div>
+            </div>
+          </article>
+          {{/each}}
+          <article class="row blog_item">
+            <div class="col-md-3">
+              <div class="blog_info text-right">
+                <div class="post_tag">
+                  <a href="#">Food</a>
                 </div>
               </article>
               <article class="row blog_item">
